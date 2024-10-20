@@ -11,16 +11,12 @@ const menuItems = [
         href: "/",
     },
     {
-        name: "About",
-        href: "/about",
+        name: "Register Athelete",
+        href: "/register",
     },
     {
-        name: "Affiliated Unit",
-        href: "/affiliated",
-    },
-    {
-        name: "Executive Member's",
-        href: "/members",
+        name: "Register Coach",
+        href: "/register-coach",
     },
     {
         name: "Contact",
@@ -62,7 +58,7 @@ export function Navbar() {
                             type="button"
                             className="rounded-md bg-white uppercase px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-white/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                         >
-                            Register Now
+                            ADMIN LOGIN <span>→</span>
                         </Link>
                     </div>
                     <div className="lg:hidden">
@@ -114,7 +110,7 @@ export function Navbar() {
                                                 type="button"
                                                 className="w-full rounded-md bg-white px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                                             >
-                                                Register Now <span>→</span>
+                                                ADMIN LOGIN <span>→</span>
                                             </Link>
                                         </div>
                                     </div>
