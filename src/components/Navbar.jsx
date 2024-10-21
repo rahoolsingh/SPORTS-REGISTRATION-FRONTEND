@@ -54,7 +54,10 @@ export function Navbar() {
                         {/* fonticon social icons */}
 
                         <Link
-                            to={"/register"}
+                            to={
+                                "https://sports-admin-dashboard-frontend.vercel.app/"
+                            }
+                            target="_blank"
                             type="button"
                             className="rounded-md bg-white uppercase px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-white/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                         >
@@ -106,7 +109,10 @@ export function Navbar() {
                                         <div className="mt-8">
                                             <Link
                                                 onClick={toggleMenu}
-                                                to={"/register"}
+                                                to={
+                                                    "https://sports-admin-dashboard-frontend.vercel.app/"
+                                                }
+                                                target="_blank"
                                                 type="button"
                                                 className="w-full rounded-md bg-white px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                                             >
